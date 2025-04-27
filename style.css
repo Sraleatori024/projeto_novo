@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+body{
+    background-attachment: fixed;
+    background: url(imagens/fundo-png.png) no-repeat top center;
+    background-size: cover;
+
+}
+main{ 
+    height:100vh;
+    width: 100vw;
+    position: relative;
+
+}
+#cel{
+   width: 400px; 
+   height: 400px;
+   top: 50%;
+   left: 50%;
+   position:absolute;
+   transform: translate(-50%,-50%);
+   background: url(imagens/apple-iphone-x-pictures-5.png) no-repeat; 
+}
+
