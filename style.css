@@ -9,7 +9,7 @@ html,body{
 }
 body{
     background-attachment: fixed;
-    background: url(imagens/fundo-png.png) no-repeat top center;
+    background: url('imagens/fundo-png.png') no-repeat top center;
     background-size: cover;
 
 }
@@ -19,13 +19,32 @@ main{
     position: relative;
 
 }
+iframe{
+    width: 470px;
+    height:500px;
+    background: url('imagens/apple-iphone-x-pictures-5.png') no-repeat;
+}
 #cel{
    width: 400px; 
    height: 400px;
    top: 50%;
    left: 50%;
    position:absolute;
-   transform: translate(-50%,-50%);
-   background: url(imagens/apple-iphone-x-pictures-5.png) no-repeat; 
+   transform: translate(-50%,-55%);
 }
-
+section#rede{
+    text-align: right;
+}
+section#rede img{ 
+    border-radius: 50%;
+    padding: 3px;
+    width: 90px; 
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.404) ; 
+    box-sizing: border-box;
+}
+section#rede img:hover{
+    border: 2px solid white;
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: trasnform .3 border .5;
+}
